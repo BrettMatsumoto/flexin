@@ -48,7 +48,11 @@ hover color yellow */
 row-reverse
 wrap 
 space-evenly */
-
+.main{
+    display: flex;
+    flex-flow: row-reverse wrap;
+    justify-content: space-evenly
+}
 
 /* 4. Give the div classes of specials the following properties with your own values:
 
