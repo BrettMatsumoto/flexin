@@ -10,18 +10,22 @@ body{
 
 
 /* 2. add media queries for both 920px and 600px breakpoints with the following properties:*/
-/* 
+
 @media only screen and (max-width: 920px){
     .container{
         justify-content: space-around;
         font-size: 30px;
-        background-color: red;
+        color: red;
     }
 }
 
 @media only screen and (max-width: 600px){
-
-} */
+    .container{
+        flex-direction: column;
+        justify-content: center;
+        background-color: blue;
+    }
+}
 
 /* 920px:
 space around nav items
