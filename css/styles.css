@@ -76,7 +76,22 @@ text-align */
 920px
 
 add your own properties for each of the breakpoints. */
-
+@media only screen and (max-width:920px){
+    .main{
+        background-color: red;
+    }
+}
+@media only screen and (max-width:768px){
+    .main{
+        text-align: left;
+        color: cornflowerblue
+    }
+}
+@media only screen and (max-width: 700px){
+    .main{
+        border: 10px solid black;
+    }
+}
 /* 6. Change the order of the letters in the block-order div to the following:
 CADB */
 
